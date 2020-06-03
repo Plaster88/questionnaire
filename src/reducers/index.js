@@ -8,24 +8,20 @@ const initialState = {
           question: 'Am the life of the party',
           answers: [
             {
-              id: 1,
               answer: 'I agree'
             },
             {
-              id: 2,
               answer: 'I dissagree'
             }
           ]
         },
         {
-          question: 'Am the life of the party',
+          question: 'Life of the party',
           answers: [
             {
-              id: 1,
               answer: 'I agree'
             },
             {
-              id: 2,
               answer: 'I dissagree'
             }
           ]
@@ -38,15 +34,23 @@ const initialState = {
       title: 'Personality test #2',
       questions: [
         {
-          id: 1, 
           question: 'Have a vivid imagination',
           answers: [
             {
-              id: 1,
               answer: 'I agree'
             },
             {
-              id: 2,
+              answer: 'I dissagree'
+            }
+          ]
+        },
+        {
+          question: 'Am the life of the party',
+          answers: [
+            {
+              answer: 'I agree'
+            },
+            {
               answer: 'I dissagree'
             }
           ]
@@ -58,8 +62,18 @@ const initialState = {
       title: 'Personality test #3',
       questions: [
         {
-          id: 1, 
           question: 'Like order',
+          answers: [
+            {
+              answer: 'I agree'
+            },
+            {
+              answer: 'I dissagree'
+            }
+          ]
+        },
+        {
+          question: 'Am the life of the party',
           answers: [
             {
               answer: 'I agree'
@@ -76,15 +90,23 @@ const initialState = {
       title: 'Personality test #4',
       questions: [
         {
-          id: 1, 
           question: 'Am the life of the party',
           answers: [
             {
-              id: 1,
               answer: 'I agree'
             },
             {
-              id: 2,
+              answer: 'I dissagree'
+            }
+          ]
+        },
+        {
+          question: 'Life of the party',
+          answers: [
+            {
+              answer: 'I agree'
+            },
+            {
               answer: 'I dissagree'
             }
           ]
@@ -97,15 +119,23 @@ const initialState = {
       title: 'Personality test #5',
       questions: [
         {
-          id: 1,
           question: 'Am the life of the party',
           answers: [
             {
-              id: 1,
               answer: 'I agree'
             },
             {
-              id: 2,
+              answer: 'I dissagree'
+            }
+          ]
+        },
+        {
+          question: 'Life of the party',
+          answers: [
+            {
+              answer: 'I agree'
+            },
+            {
               answer: 'I dissagree'
             }
           ]
@@ -118,15 +148,23 @@ const initialState = {
       title: 'Personality test #6',
       questions: [
         {
-          id: 1, 
           question: 'Am the life of the party',
           answers: [
             {
-              id: 1,
               answer: 'I agree'
             },
             {
-              id: 2,
+              answer: 'I dissagree'
+            }
+          ]
+        },
+        {
+          question: 'Life of the party',
+          answers: [
+            {
+              answer: 'I agree'
+            },
+            {
               answer: 'I dissagree'
             }
           ]
